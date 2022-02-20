@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1.header World Time API
+  h5 Timezone Info Based on Public IP
+  div.api_info
+  script(src="/javascripts/fetch.js")
