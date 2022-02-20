@@ -1,4 +1,4 @@
-fetch("http://worldtimeapi.org/api/ip", {mode: "no-cors"})
+fetch("https://worldtimeapi.org/api/ip", {mode: "no-cors"})
 	.then(response => response.json())
   .then(data => {
 		const fragment = document.createDocumentFragment();
